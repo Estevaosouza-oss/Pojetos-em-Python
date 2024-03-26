@@ -1,0 +1,16 @@
+print('|=============Seja Bem Vindo===========|')
+print('|       Nesse Programa Nos Iremos      |')
+print('| Calcular um valor com 5% de Desconto |')
+print('|               Vamos Lá!              |')
+print('|======================================|')
+v = float(input('| Digite o valor do produto: '))
+d = (v*5)/100
+nv = v-d
+print('|=========================================|')
+print('|   Oba! Toda nossa loja esta com 5% de   |')
+print('|    Desconto sendo assim seu produto     |')
+print('| tem o custo de {}R$ o valor de desconto |'.format(v))
+print('|  Será de {}R$ o novo valor do produto é |'.format(d))
+print('|           de {}R$                 |'.format(nv))
+print('|=========================================|')
+print('        OBRIGADO POR TER PARTICIPADO       ')

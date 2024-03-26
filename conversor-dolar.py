@@ -1,0 +1,13 @@
+print('|================Seja Bem Vindo===============|')
+print('|            Nesse Programa Faremos           |')
+print('|  A Conversão de quantos reais voce possui   |')
+print('| Para Quantos Doares voce conseguira com ele |')
+print('|                  Vamos lá!!                 |')
+print('|=============================================|')
+r = float(input('|Quantos Reais voce possui: '))
+d = r / 5
+print('| Hum... Então voce possui {}R$ |'.format(r))
+print('|   Caso Você faça a Conversão   |')
+print('|     Você Conseguira {:.2f}US$      |'.format(d))
+print('|================================|')
+print('      OBRIGADO POR PARTICIPAR     ')
