@@ -1,0 +1,15 @@
+print('|==========Seja Bem Vindo========|')
+print('| Nesse Programa Iremos calcular |')
+print('|  Um Aumento de 15% de salário  |')
+print('|           OK Vamos lá          |')
+print('|================================|')
+s = float(input('| Digite seu Salário atual: '))
+a = (s*15)/100
+ns = s+a
+print('|=====================================|')
+print('|    O Seu Salário Atual é de {} R$   |'.format(s))
+print('|     com o aumento de 15% o seu      |')
+print('| salário sofrera um aumento de {} R$ |'.format(a))
+print('| o Seu novo salario sera de {} R$ |'.format(ns))
+print('|=====================================|')
+print('         OBRIGADO POR PARTICIPAR        ')
